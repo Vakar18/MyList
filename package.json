@@ -2,11 +2,11 @@
   "name": "my_list",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node server.js",
+    "start": "node server.ts",
     "dev": "ts-node-dev src/server.ts",
     "test": "jest"
   },

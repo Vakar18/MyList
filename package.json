@@ -2,12 +2,12 @@
   "name": "my_list",
   "version": "1.0.0",
   "description": "",
-  "main": "server.mjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node server.mjs",
-    "dev": "ts-node-dev src/server.mjs",
+    "start": "node server.js",
+    "dev": "ts-node-dev src/server.ts",
     "test": "jest"
   },
   "keywords": [],
